@@ -62,10 +62,13 @@ body {
   border-bottom: 1.5px solid #fff;
 }
 
-#page1 h1 {
+.page1 h1 {
   font-size: 8vh;
   font-weight: 100;
   font-family: PP mori;
+}
+
+.page1 h2 {
 }
 
 #nav-part-3 {
