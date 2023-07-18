@@ -64,8 +64,9 @@ body {
 
 .page1 h1 {
   font-size: 8vh;
-  font-weight: 100;
+  font-weight: 300;
   font-family: PP mori;
+  margin-top: 10vw;
 }
 
 .page1 h2 {
