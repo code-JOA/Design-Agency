@@ -26,10 +26,15 @@ body {
   height: 100%;
   width: 100%;
   color: red;
+  align-items: center;
+  justify-content: center;
 }
 
 #nav-part-2 {
 }
 
 #nav-part-3 {
+}
+
+#circle {
 }
