@@ -25,7 +25,7 @@ body {
 #nav {
   height: 60px;
   width: 100%;
-  color: red;
+  background-color: red;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -38,6 +38,7 @@ body {
 #nav-part-2 {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 #nav-part-3 {
