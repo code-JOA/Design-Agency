@@ -47,16 +47,16 @@ body {
   height: 20px;
   width: 20px;
   border-radius: 50%;
-  background-color: black;
+  background-color: #fff;
 }
 
 #nav h4 {
   font-size: 13px;
-  font-weight: 100;
+  font-weight: 500;
   text-transform: uppercase;
 }
 
-#nav-part-3 {
+#nav h4:nth-child() #nav-part-3 {
 }
 
 #circle {
