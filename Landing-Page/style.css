@@ -31,6 +31,10 @@ body {
   justify-content: space-between;
 }
 
+#nav img {
+  height: 30px;
+}
+
 #nav-part-2 {
 }
 
