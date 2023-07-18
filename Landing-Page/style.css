@@ -29,10 +29,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 30px;
 }
 
 #nav img {
-  height: 26px;
+  height: 24px;
 }
 
 #nav-part-2 {
