@@ -32,10 +32,12 @@ body {
 }
 
 #nav img {
-  height: 30px;
+  height: 26px;
 }
 
 #nav-part-2 {
+  display: flex;
+  align-items: center;
 }
 
 #nav-part-3 {
