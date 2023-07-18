@@ -64,6 +64,8 @@ body {
 
 #page1 h1 {
   font-size: 7vh;
+  font-weight: 600;
+  font-family: PP mori;
 }
 
 #nav-part-3 {
