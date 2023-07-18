@@ -57,7 +57,8 @@ body {
 }
 
 #nav h4:nth-child(1) {
-  background-color: red;
+  /* background-color: red; */
+  text-decoration: underline;
 }
 
 #nav-part-3 {
