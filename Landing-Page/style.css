@@ -70,6 +70,9 @@ body {
 }
 
 .page1 h2 {
+  font-size: 8vh;
+  font-weight: 300;
+  font-family: PP Mori;
 }
 
 #nav-part-3 {
