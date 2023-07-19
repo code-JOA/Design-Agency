@@ -98,5 +98,6 @@ gsap.to(".page1, h1", {
     scroller: ".main",
     markers: true,
     start: "top 30%",
+    end: "top 0",
   },
 });
