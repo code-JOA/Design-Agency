@@ -32,9 +32,28 @@ body {
   padding: 0 30px;
 }
 
+/* #nav img {
+  height: 24px; 
+  margin-top: 1.2vw;
+  width: 19%;
+  display: flex;
+  position: absolute
+  margin-right: 15%;
+  justify-content: center;
+}  */
+
+.logo a {
+  color: var(--primary);
+  font-size: 20px;
+  font-weight: 60;
+  padding: 0.5rem;
+  margin-right: 50%;
+  /* border: 3px solid var(--black); */
+}
+/* 
 #nav img {
   height: 24px;
-}
+} */
 
 #nav-part-2 {
   display: flex;
@@ -67,13 +86,14 @@ body {
   font-weight: 300;
   font-family: PP Mori;
   margin-top: 10vw;
-  margin-left: 5vw;
+  margin-left: 6vw;
 }
 
 .page1 h2 {
   font-size: 8vh;
   font-weight: 300;
   font-family: PP Mori;
+  margin-left: 6vw;
 }
 
 #nav-part-3 {
