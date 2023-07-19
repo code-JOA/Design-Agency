@@ -62,3 +62,5 @@ t1.to(
   },
   "anim"
 );
+
+t1.to(".page1 video");
