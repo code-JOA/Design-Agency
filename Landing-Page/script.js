@@ -102,6 +102,18 @@ gsap.timeline({
     scrub: 2,
   },
 });
+.t1.to{
+    ".page1 h2" ,{
+        x: -100,
+    }
+}
+
+.t1.to{
+    ".page h2" , {
+        x= 100
+    }
+}
+
 
 gsap.to(".page1 h1", {
   x: -100
@@ -116,13 +128,4 @@ gsap.to(".page1 h1", {
   //   },
 });
 
-.t1.to{
-    ".page1 h2" ,{
-        x: -100
-    }
-}
-
-.t1.to{
-    ".page h2"
-}
 
