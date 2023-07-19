@@ -90,7 +90,7 @@ function init() {
 
 init();
 
-gsap.timeline();
+gsap.timeline({});
 
 gsap.to(".page1 h1", {
   x: -100,
