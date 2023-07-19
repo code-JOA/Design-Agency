@@ -97,7 +97,9 @@ body {
 }
 
 .page1 video {
-  margin-left: auto;
+  width: 60%;
+  height: 60%;
+  justify-content: center;
 }
 
 #nav-part-3 {
