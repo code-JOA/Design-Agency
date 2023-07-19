@@ -35,7 +35,7 @@ function init() {
 
 init();
 
-gsap.timeline({
+var t1 = gsap.timeline({
   scrollTrigger: {
     trigger: ".page1 h1",
     scroller: ".main",
