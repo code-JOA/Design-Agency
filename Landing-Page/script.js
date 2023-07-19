@@ -92,7 +92,7 @@ init();
 
 gsap.to(".page1 h1", {
   x: -80,
-  //   duration: 1,
+  //   duration: 4,
   scrollTrigger: {
     trigger: ".page1 h1",
     scroller: ".main",
