@@ -1,5 +1,3 @@
-import { gsap } from "gsap";
-
 function init() {
   gsap.registerPlugin(ScrollTrigger);
 
@@ -92,7 +90,7 @@ function init() {
 
 init();
 
-gsap.totimeline();
+// gsap.totimeline();
 gsap.to(".page1 h1", {
   x: -100,
   //    duration: 4,
