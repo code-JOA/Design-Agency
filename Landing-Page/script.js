@@ -93,4 +93,7 @@ init();
 gsap.to(".page1, h1", {
   x: -80,
   duration: 1,
+  scrolTrigger: {
+    trigger: 
+  },
 });
