@@ -90,4 +90,6 @@ function init() {
 
 init();
 
-gsap.to(".page1, h1");
+gsap.to(".page1, h1", {
+  x: -80,
+});
