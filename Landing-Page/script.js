@@ -90,11 +90,11 @@ function init() {
 
 init();
 
-gsap.to(".page1, h1", {
+gsap.to(".page1 h1", {
   x: -80,
   duration: 1,
   scrollTrigger: {
-    trigger: ".page1, h1",
+    trigger: ".page1 h1",
     scroller: ".main",
     markers: true,
     start: "top 30%",

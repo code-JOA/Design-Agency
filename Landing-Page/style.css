@@ -42,18 +42,18 @@ body {
   justify-content: center;
 }  */
 
-/* .logo a {
+.logo a {
   color: var(--primary);
   font-size: 20px;
   font-weight: 60;
   padding: 0.5rem;
   margin-right: 50%;
   /* border: 3px solid var(--black); */
-} */
+}
 
-#nav img {
+/* #nav img {
   height: 24px;
-} 
+}  */
 
 #nav-part-2 {
   display: flex;
