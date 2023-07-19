@@ -36,7 +36,7 @@ function init() {
 init();
 
 gsap.to(".page1 h1", {
-  x: -80,
+  x: -100,
   // duration: 1,
   scrollTrigger: {
     trigger: ".page1 h1",
