@@ -1,7 +1,6 @@
 function init() {
   gsap.registerPlugin(ScrollTrigger);
 
-  // Using Locomotive Scroll from Locomotive https://github.com/locomotivemtl/locomotive-scroll
   const locoScroll = new LocomotiveScroll({
     el: document.querySelector(".main"),
     smooth: true,
@@ -14,7 +13,7 @@ function init() {
       return arguments.length
         ? locoScroll.scrollTo(value, 0, 0)
         : locoScroll.scroll.instance.scroll.y;
-    }, // we don't have to define a scrollLeft because we're only scrolling vertically.
+    },
     getBoundingClientRect() {
       return {
         top: 0,
@@ -35,15 +34,38 @@ function init() {
 
 init();
 
-gsap.to(".page1 h1", {
-  x: -80,
-  // duration: 1,
+var t1 = gsap.timeline({
   scrollTrigger: {
     trigger: ".page1 h1",
     scroller: ".main",
     markers: true,
-    start: "top 27%",
+    start: "top 30%",
     end: "top 0",
     scrub: 2,
   },
+});
+
+t1.to{
+    ".page1 h2" ,{
+        x: -100,
+    }
+}
+
+t1.to{
+    ".page h2" , {
+        x= 100
+    }
+}
+
+gsap.to(".page1 h1", {
+  x: -100
+     duration: 4,
+    scrollTrigger: {
+      trigger: ".page1 h1",
+      scroller: ".main",
+      markers: true,
+      start: "top 30%",
+      end: "top 0",
+      scrub: 2,
+    },
 });
