@@ -35,9 +35,18 @@ function init() {
 
 init();
 
-gsap.timeline({});
+gsap.timeline({
+  scrollTrigger: {
+    trigger: ".page1 h1",
+    scroller: ".main",
+    markers: true,
+    start: "top 27%",
+    end: "top 0",
+    scrub: 2,
+  },
+});
 
-gsap.to(".page1 h1", {
+t1.to(".page1 h1", {
   x: -100,
   // duration: 1,
 });
