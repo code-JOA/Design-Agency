@@ -35,24 +35,25 @@ function init() {
 
 init();
 
-var t1 = gsap.timeline(
+var t1 = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".page1 h1",
+    scroller: ".main",
+    markers: true,
+    start: "top 27%",
+    end: "top 0",
+    scrub: 3,
+  },
+});
+
+t1.to(
+  ".page1 h1",
   {
-    scrollTrigger: {
-      trigger: ".page1 h1",
-      scroller: ".main",
-      markers: true,
-      start: "top 27%",
-      end: "top 0",
-      scrub: 3,
-    },
+    x: -100,
+    // duration: 1,
   },
   "anim"
 );
-
-t1.to(".page1 h1", {
-  x: -100,
-  // duration: 1,
-});
 
 t1.to(
   ".page1 h2",
