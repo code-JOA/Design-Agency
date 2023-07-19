@@ -92,15 +92,16 @@ function init() {
 
 init();
 
+gsap.totimeline();
 gsap.to(".page1 h1", {
-  x: -80,
-  //   duration: 4,
-  scrollTrigger: {
-    trigger: ".page1 h1",
-    scroller: ".main",
-    markers: true,
-    start: "top 30%",
-    end: "top 0",
-    scrub: 2,
-  },
+  x: -100,
+  //    duration: 4,
+  //   scrollTrigger: {
+  //     trigger: ".page1 h1",
+  //     scroller: ".main",
+  //     markers: true,
+  //     start: "top 30%",
+  //     end: "top 0",
+  //     scrub: 2,
+  //   },
 });
