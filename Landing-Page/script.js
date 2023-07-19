@@ -104,7 +104,7 @@ gsap.timeline({
 });
 
 gsap.to(".page1 h1", {
-  x: -100,
+  x: -100
   //    duration: 4,
   //   scrollTrigger: {
   //     trigger: ".page1 h1",
@@ -117,7 +117,9 @@ gsap.to(".page1 h1", {
 });
 
 .t1.to{
-    ".page1 h2"
+    ".page1 h2" ,{
+        x: -100
+    }
 }
 
 .t1.to{
