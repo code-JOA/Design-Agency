@@ -92,12 +92,13 @@ init();
 
 gsap.to(".page1 h1", {
   x: -80,
-  duration: 1,
+  //   duration: 1,
   scrollTrigger: {
     trigger: ".page1 h1",
     scroller: ".main",
     markers: true,
     start: "top 30%",
     end: "top 0",
+    scrub: 2,
   },
 });
