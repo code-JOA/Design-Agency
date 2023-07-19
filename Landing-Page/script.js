@@ -89,3 +89,5 @@ function init() {
 }
 
 init();
+
+gsap.to(".page1, h1");
