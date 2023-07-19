@@ -99,7 +99,9 @@ body {
 .page1 video {
   width: 60%;
   height: 60%;
-  justify-content: center;
+  margin-top: 10vh;
+  margin-left: 20%;
+  /* justify-content: center; */
 }
 
 #nav-part-3 {
