@@ -1,5 +1,3 @@
-import { gsap } from 'gsap';
-
 function init() {
   gsap.registerPlugin(ScrollTrigger);
 
@@ -102,6 +100,7 @@ gsap.timeline({
     scrub: 2,
   },
 });
+
 .t1.to{
     ".page1 h2" ,{
         x: -100,
