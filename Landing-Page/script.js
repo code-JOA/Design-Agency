@@ -96,5 +96,6 @@ gsap.to(".page1, h1", {
   scrolTrigger: {
     trigger: ".page1, h1",
     scroller: ".main",
+    markers: true,
   },
 });
