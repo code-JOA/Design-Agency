@@ -114,10 +114,10 @@ gsap.to(".page1 h1", {
   //   },
 });
 .t1.to{
-    .page1 h2
+    ".page1 h2"
 }
 
 .t1.to{
-    .page h2
+    ".page h2"
 }
 
