@@ -113,6 +113,11 @@ gsap.to(".page1 h1", {
   //     scrub: 2,
   //   },
 });
-.t1{
-
+.t1.to{
+    .page1 h2
 }
+
+.t1.to{
+    .page h2
+}
+
