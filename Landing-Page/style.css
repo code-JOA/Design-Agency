@@ -146,6 +146,7 @@ body {
 .page2-left h2 {
   /* background-color: blue; */
   font-size: 3vw;
+  font-weight: 300;
 }
 
 .page2-right {
