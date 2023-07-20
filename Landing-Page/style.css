@@ -163,7 +163,9 @@ body {
 
 .page2 button {
   width: 100%;
-  border-radius: ;
+  border-radius: 50px;
+  border: none;
+  padding: 4px 0;
 }
 
 /* .page2 h2 {
