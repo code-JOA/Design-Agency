@@ -213,6 +213,9 @@ body {
 }
 
 .page4 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .page4 img {
