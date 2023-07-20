@@ -132,6 +132,7 @@ body {
   background-color: red;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 /* .page2 h2 {
