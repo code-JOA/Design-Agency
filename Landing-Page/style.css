@@ -166,7 +166,8 @@ body {
   border-radius: 50px;
   border: none;
   padding: 4px 0;
-  color: #edbfff;
+  background-color: #edbfff;
+  color: #111;
 }
 
 /* .page2 h2 {
