@@ -241,10 +241,10 @@ body {
   width: 100%;
   z-index: 9;
   position: relative;
-  padding: 100px 100px;
+  padding: 170px 100px;
 }
 .elem {
-  /* background-color: salmon; */
+  background-color: salmon;
   margin-bottom: 10px;
   display: flex;
   align-items: center;
