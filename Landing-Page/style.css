@@ -161,11 +161,12 @@ body {
   font-size: 25px;
 }
 
-.page2 button {
+.page2-right button {
   width: 100%;
   border-radius: 50px;
   border: none;
   padding: 4px 0;
+  color: #edbff;
 }
 
 /* .page2 h2 {
