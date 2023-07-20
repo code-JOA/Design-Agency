@@ -245,7 +245,8 @@ body {
   margin-top: 40px;
 }
 .elem {
-  background-color: salmon;
+  /* background-color: salmon; */
+  background-color: red;
   margin-bottom: 10px;
   display: flex;
   align-items: center;
