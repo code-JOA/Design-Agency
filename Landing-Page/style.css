@@ -123,6 +123,7 @@ body {
 .page2 h1 {
   font-size: 7vw;
   font-weight: 300;
+  color: red;
 }
 
 /* .page2 h2 {
