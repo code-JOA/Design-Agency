@@ -123,8 +123,8 @@ body {
 .page2 h1 {
   font-size: 7vw;
   font-weight: 300;
-  padding: 0 5vw;
-  margin-top: 10%;
+  /* padding: 0 5vw;
+  margin-top: 10%; */
   /* color: red; */
 }
 
@@ -140,7 +140,7 @@ body {
 }
 
 .page2-left {
-  /* background-color: blue; */
+  background-color: blue;
   width: 38%;
 }
 
@@ -152,7 +152,7 @@ body {
 }
 
 .page2-right {
-  /* background-color: blue; */
+  background-color: blue;
   width: 24%;
 }
 
