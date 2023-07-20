@@ -77,5 +77,4 @@ var tl2 = gsap.timeline({
 });
 tl2.to(".main", {
   backgroundColor: "#fff",
-  color: #111,
 });
