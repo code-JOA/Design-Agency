@@ -130,6 +130,8 @@ body {
   height: 60vh;
   width: 100%;
   background-color: red;
+  display: flex;
+  align-items: center;
 }
 
 /* .page2 h2 {
