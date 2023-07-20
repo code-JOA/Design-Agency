@@ -35,7 +35,7 @@ function init() {
 
 init();
 
-var t1 = gsap.timeline({
+var tl = gsap.timeline({
   scrollTrigger: {
     trigger: ".page1 h1",
     scroller: ".main",
@@ -46,7 +46,7 @@ var t1 = gsap.timeline({
   },
 });
 
-t1.to(
+tl.to(
   ".page1 h1",
   {
     x: -100,
@@ -55,7 +55,7 @@ t1.to(
   "anim"
 );
 
-t1.to(
+tl.to(
   ".page1 h2",
   {
     x: 100,
@@ -63,4 +63,4 @@ t1.to(
   "anim"
 );
 
-t1.to(".page1 video", { width: "90%" }, "anim");
+tl.to(".page1 video", { width: "90%" }, "anim");
