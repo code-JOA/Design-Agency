@@ -165,8 +165,10 @@ var tl2 = gsap.timeline({
     trigger: ".page1 h1",
     scroller: ".main",
     // markers:true,
-    start: "top -185%",
-    end: "top -200%",
+    // start: "top -115%",
+    // end: "top -120%",
+    start: "top -100%",
+    end: "top -100%",
     scrub: 3,
   },
 });
