@@ -137,7 +137,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 5vw;
+  /* padding: 0 5vw; */
 }
 
 .page2-left {
