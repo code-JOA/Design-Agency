@@ -118,6 +118,7 @@ body {
 .page2 {
   min-height: 120vh;
   width: 100%;
+  padding: 100px 0;
 }
 
 .page2 h1 {
