@@ -146,14 +146,14 @@ body {
 
 .page2-left h2 {
   /* background-color: blue; */
-  font-size: 3vw;
+  font-size: 4vw;
   font-weight: 300;
   color: black;
 }
 
 .page2-right {
   background-color: blue;
-  width: 26%;
+  width: 24%;
 }
 
 .page2-right p {
