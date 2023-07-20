@@ -182,14 +182,15 @@ body {
 } */
 
 .page3 {
-  min-height: 150vh;
+  min-height: 100vh;
   width: 100%;
   position: relative;
   padding-top: 100px;
+  z-index: 9;
 }
 
 .page3 h1 {
-  font-size: 7vw;
+  font-size: 6.8vw;
   color: #111;
   font-weight: 300;
   margin-left: 100px;
@@ -202,6 +203,11 @@ body {
 }
 
 .page3-part1 img {
-  height: 600px;
-  margin-top: 100px;
+  height: 400px;
+  margin-top: 160px;
+}
+
+.page3-part1 video {
+  height: 400px;
+  margin-top: 40px;
 }
