@@ -167,8 +167,8 @@ var tl2 = gsap.timeline({
     // markers:true,
     // start: "top -115%",
     // end: "top -120%",
-    start: "top -100%",
-    end: "top -100%",
+    start: "top -120%",
+    end: "top -80%",
     scrub: 3,
   },
 });
