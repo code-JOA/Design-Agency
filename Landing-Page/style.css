@@ -35,9 +35,9 @@ body {
   position: fixed;
   background-color: #edbfff;
   z-index: 9;
-  /* transition: background-image ease 0.5s;
+  transition: background-image ease 0.5s;
   background-position: center;
-  background-size: cover; */
+  background-size: cover;
   mix-blend-mode: difference;
 }
 
