@@ -133,7 +133,7 @@ body {
   height: 60vh;
   width: 100%;
   /* background-color: red; */
-  background-color: #fff;
+  /* background-color: #fff; */
   display: flex;
   align-items: center;
   justify-content: space-between;
