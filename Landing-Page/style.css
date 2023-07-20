@@ -140,14 +140,14 @@ body {
 
 .page2-left {
   background-color: blue;
-  width: 40%;
+  width: 38%;
 }
 
 .page2-left h2 {
   /* background-color: blue; */
   font-size: 3vw;
   font-weight: 300;
-  background-color: black;
+  color: black;
 }
 
 .page2-right {
