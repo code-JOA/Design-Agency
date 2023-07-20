@@ -212,18 +212,18 @@ body {
   margin-top: 40px;
 }
 
-/* .page4 {
+.page4 {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
 }
 
-.page4 img {
+.page4-part1 img {
   height: 400px;
   margin-top: 140px;
 }
 
-.page4 video {
+.page4-part1 video {
   height: 400px;
   margin-top: 40px;
-} */
+}
