@@ -119,6 +119,10 @@ body {
   min-height: 120vh;
   width: 100%;
   padding: 100px 5vw;
+  /*  */
+  border-bottom: 2px solid #6c6c6c;
+  position: relative;
+  z-index: 9;
 }
 
 .page2 h1 {
@@ -141,7 +145,7 @@ body {
 
 .page2-left {
   /* background-color: blue; */
-  width: 38%;
+  width: 40%;
 }
 
 .page2-left h2 {
@@ -149,6 +153,8 @@ body {
   font-size: 4vw;
   font-weight: 300;
   color: #111;
+  /*  */
+  line-height: 4vw;
 }
 
 .page2-right {
