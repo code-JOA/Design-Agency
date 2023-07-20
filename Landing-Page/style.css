@@ -161,6 +161,11 @@ body {
   font-size: 25px;
 }
 
-.page2/* .page2 h2 {
+.page2 button {
+  width: 100%;
+  border-radius: ;
+}
+
+/* .page2 h2 {
   font-size: 10px;
-} */;
+} */
