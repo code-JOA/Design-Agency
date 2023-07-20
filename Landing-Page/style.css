@@ -140,7 +140,7 @@ body {
 }
 
 .page2-left {
-  background-color: blue;
+  /* background-color: blue; */
   width: 38%;
 }
 
@@ -152,13 +152,13 @@ body {
 }
 
 .page2-right {
-  background-color: blue;
+  /* background-color: blue; */
   width: 24%;
 }
 
 .page2-right p {
   color: black;
-  font-size: 28px;
+  font-size: 25px;
 }
 
 /* .page2 h2 {
