@@ -257,7 +257,7 @@ body {
   position: relative;
 }
 .elem img {
-  /* height: 400px; */
+  height: 400px;
   position: absolute;
   opacity: 0;
   transition: all ease-out 0.5s;
