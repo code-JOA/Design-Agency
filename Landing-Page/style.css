@@ -121,7 +121,8 @@ body {
 }
 
 .page2 h1 {
-  font-size: 8vh;
+  font-size: 7vh;
+  font-weight: 300;
 }
 
 .page2 h2 {
