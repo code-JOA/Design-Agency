@@ -66,5 +66,5 @@ t1.to(
 t1.to(".page1 video", { width: "90%" }, "anim");
 
 .to(".main", {
-  backgroundColor: #fff 
+  backgroundColor: "#fff" 
 })
