@@ -306,5 +306,7 @@ body {
   border-bottom: 2px solid #6c6c6c;
 }
 
-#footer {
+footer {
+  height: 90vh;
+  width: 100%;
 }
