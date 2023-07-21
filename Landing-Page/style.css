@@ -304,7 +304,8 @@ body {
   position: relative;
   padding-top: 100px;
   z-index: 9;
-  border-bottom: 2px solid #6c6c6c;
+  padding: 140px 100px;
+  /* border-bottom: 2px solid #6c6c6c; */
 }
 
 .page5 h1 {
