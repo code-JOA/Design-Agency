@@ -314,6 +314,10 @@ body {
   font-weight: 400;
 }
 
+.box-container {
+  background-color: red;
+}
+
 footer {
   height: 90vh;
   width: 100%;
