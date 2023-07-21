@@ -314,7 +314,7 @@ body {
   font-weight: 400;
 }
 
-.box-container {
+.box {
   background-color: red;
   display: flex;
   align-items: center;
