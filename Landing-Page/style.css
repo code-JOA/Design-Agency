@@ -316,6 +316,8 @@ body {
 
 .box-container {
   background-color: red;
+  display: flex;
+  align-items: center;
 }
 
 footer {
