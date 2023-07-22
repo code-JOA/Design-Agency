@@ -39,6 +39,14 @@ var crsr = document.querySelector(".cursor");
 var main = document.querySelector(".main");
 main.addEventListener("mousemove", function () {});
 
+// gsap.from(".page1 h1,.page1 h2", {
+//   y: 10,
+//   rotate: 10,
+//   opacity: 0,
+//   delay: 0.3,
+//   duration: 0.7,
+// });
+
 var tl = gsap.timeline({
   scrollTrigger: {
     trigger: ".page1 h1",
