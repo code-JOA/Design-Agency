@@ -37,7 +37,7 @@ init();
 
 var crsr = document.querySelector(".cursor");
 var main = document.querySelector(".main");
-main.addEventListener("mousemove", function () {});
+main.addEventListener("mousemove", function (dets) {});
 
 gsap.from(".page1 h1,.page1 h2", {
   y: 10,
