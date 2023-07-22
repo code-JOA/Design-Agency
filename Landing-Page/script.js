@@ -38,7 +38,7 @@ init();
 var crsr = document.querySelector(".cursor");
 var main = document.querySelector(".main");
 main.addEventListener("mousemove", function (dets) {
-  console.log(dets);
+  crsr.style.left = dets.x + "px";
 });
 
 gsap.from(".page1 h1,.page1 h2", {
