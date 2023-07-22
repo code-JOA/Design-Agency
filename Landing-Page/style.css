@@ -240,8 +240,8 @@ body {
 /* Page 4 */
 
 /* for page4 margin-top: 40px; */
-/*
-  .page4 {
+
+.page4 {
   min-height: 100vh;
   width: 100%;
   z-index: 9;
@@ -249,14 +249,11 @@ body {
   padding: 140px 100px;
   background-color: black;
 }
-*/
-/*
 
 /* For elem below */
 /* background-color: salmon; */
 /* background-color: red; */
 
-/*
 .elem {
   margin-bottom: 10px;
   display: flex;
@@ -264,6 +261,7 @@ body {
   justify-content: center;
   position: relative;
 }
+/*  
 .elem img {
   height: 400px;
   position: absolute;
@@ -272,11 +270,11 @@ body {
   transform: translateY(10%) rotate(2deg);
 } */
 
-/* .elem img {
+.elem img {
   height: 400px;
   margin-top: 160px;
-} 
-/* 
+}
+
 .elem img:nth-child(1) {
   left: 2%;
 }
@@ -304,7 +302,7 @@ body {
   transform: translateY(0%) rotate(0deg);
 }
 
-
+/* 
 .page5 {
   min-height: 100vh;
   width: 100%;
