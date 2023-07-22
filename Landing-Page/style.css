@@ -35,7 +35,6 @@ body {
   position: fixed;
   /* background-color: #edbfff; */
   background-color: red;
-
   z-index: 8;
   transition: background-image ease 0.5s;
   background-position: center;
@@ -118,7 +117,7 @@ body {
 }
 
 .page2 {
-  min-height: 80vh;
+  min-height: 130vh;
   width: 100%;
   padding: 100px 5vw;
   /*  */
@@ -138,11 +137,10 @@ body {
 .page2-container {
   height: 60vh;
   width: 100%;
-  /* background-color: #fff; */
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* padding: 0 5vw; */
+  padding: 0 5vw;
 }
 
 .page2-left {
@@ -155,7 +153,6 @@ body {
   font-size: 4vw;
   font-weight: 300;
   color: #111;
-  /*  */
   line-height: 4vw;
 }
 
@@ -165,8 +162,8 @@ body {
 }
 
 .page2-right p {
-  color: #111;
   font-size: 25px;
+  color: #111;
 }
 
 .page2-right button {
@@ -174,7 +171,7 @@ body {
   border-radius: 50px;
   border: none;
   padding: 4px 0;
-  background-color: #edbfff;
+  background-color: #3f1dfc;
   color: #111;
   margin-top: 20px;
 }
@@ -183,6 +180,7 @@ body {
   font-size: 10px;
 } */
 
+/* Page3 */
 .page3 {
   min-height: 100vh;
   width: 100%;
@@ -214,13 +212,13 @@ body {
   margin-top: 40px;
 }
 
+/* Pg4 */
 .pg4 {
   min-height: 100vh;
   width: 100%;
   position: relative;
   padding-top: 100px;
   z-index: 9;
-  /* border-bottom: 2px solid #6c6c6c; */
 }
 
 .pg4-part1 {
@@ -239,18 +237,27 @@ body {
   margin-top: 20px;
 }
 
-.page4 {
+/* Page 4 */
+
+/* for page4 margin-top: 40px; */
+/*
+  .page4 {
   min-height: 100vh;
   width: 100%;
   z-index: 9;
   position: relative;
   padding: 140px 100px;
-  /* margin-top: 40px; */
   background-color: black;
 }
+*/
+/*
+
+/* For elem below */
+/* background-color: salmon; */
+/* background-color: red; */
+
+/*
 .elem {
-  /* background-color: salmon; */
-  /* background-color: red; */
   margin-bottom: 10px;
   display: flex;
   align-items: center;
@@ -263,13 +270,13 @@ body {
   opacity: 0;
   transition: all ease-out 0.5s;
   transform: translateY(10%) rotate(2deg);
-}
+} */
 
 /* .elem img {
   height: 400px;
   margin-top: 160px;
-} */
-
+} 
+/* 
 .elem img:nth-child(1) {
   left: 2%;
 }
@@ -297,15 +304,14 @@ body {
   transform: translateY(0%) rotate(0deg);
 }
 
+
 .page5 {
-  /* background-color: red; */
   min-height: 100vh;
   width: 100%;
   position: relative;
   padding-top: 100px;
   z-index: 9;
   padding: 140px 100px;
-  /* border-bottom: 2px solid #6c6c6c; */
 }
 
 .page5 h1 {
@@ -315,7 +321,6 @@ body {
 }
 
 .box {
-  background-color: red;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -327,4 +332,4 @@ footer {
   height: 90vh;
   width: 100%;
   background-color: #edbfff;
-}
+} */
