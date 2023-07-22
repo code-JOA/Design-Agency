@@ -240,7 +240,6 @@ body {
 
 /* Page 4 */
 /* for page4 margin-top: 40px; */
-
 .page4 {
   min-height: 100vh;
   width: 100%;
@@ -253,7 +252,6 @@ body {
 /* For elem below */
 /* background-color: salmon; */
 /* background-color: red; */
-
 .elem {
   margin-bottom: 10px;
   display: flex;
@@ -269,7 +267,8 @@ body {
   opacity: 0;
   transition: all ease-out 0.5s;
   transform: translateY(10%) rotate(2deg);
-} */
+} 
+*/
 
 .elem img {
   height: 400px;
