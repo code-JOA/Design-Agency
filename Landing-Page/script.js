@@ -35,6 +35,10 @@ function init() {
 
 init();
 
+var crsr = document.querySelector(".cursor");
+var main = document.querySelector(".main");
+main.addEventListener("mousemove", function () {});
+
 var tl = gsap.timeline({
   scrollTrigger: {
     trigger: ".page1 h1",
