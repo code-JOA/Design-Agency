@@ -28,7 +28,7 @@ body {
   transition: opacity ease 1s;
 }
 
-/* .cursor {
+.cursor {
   height: 20px;
   width: 20px;
   border-radius: 50%;
@@ -40,7 +40,7 @@ body {
   background-position: center;
   background-size: cover;
   mix-blend-mode: difference;
-} */
+}
 
 .main {
   background-color: #0f0d0d;
