@@ -335,8 +335,8 @@ body {
 }
 
 .box:nth-last-child(1) {
-  border-bootom: 1px solid #dadada;
-  margin-bottom: ;
+  border-bottom: 1px solid #dadada;
+  /* margin-bottom: ; */
 }
 
 footer {
