@@ -331,7 +331,12 @@ body {
   height: 90px;
   padding: 0 20px;
   border-top: 1.5px solid #dadada;
-  border-bottom: 1px solid #dadada;
+  /* border-bottom: 1px solid #dadada; */
+}
+
+.box:nth-last-child(1) {
+  border-bootom: 1px solid #dadada;
+  margin-bottom: ;
 }
 
 footer {
