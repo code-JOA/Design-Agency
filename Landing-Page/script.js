@@ -129,6 +129,11 @@ boxes.forEach(function (elem) {
 
   elem.addEventListener("mouseleave", function () {
     elem.style.backgroundColor = "transparent";
+
+    crsr.style.width = "30px";
+    crsr.style.height = "25px";
+    crsr.style.borderRadius = "50%";
+    crsr.style.backgroundImage = `none`;
   });
 });
 
