@@ -119,7 +119,8 @@ tl3.to(".main", {
 var boxes = document.querySelectorAll(".box");
 boxes.forEach(function (elem) {
   elem.addEventListener("mouseenter", function () {
-    elem.style.backgroundColor = "red";
+    // elem.style.backgroundColor = "red";
+    elem.getAttribute("data-image");
   });
 
   elem.addEventListener("mouseleave", function () {
