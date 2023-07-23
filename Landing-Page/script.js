@@ -43,6 +43,7 @@ main.addEventListener("mousemove", function (dets) {
   crsr.style.top = dets.y + "px";
 });
 
+// page1 animation
 gsap.from(".page1 h1,.page1 h2", {
   y: 10,
   rotate: 10,
@@ -83,6 +84,7 @@ tl.to(".main", {
 });
 tl.to(".page1 video", { width: "90%" }, "anim");
 
+// # animation for middle sections
 var tl2 = gsap.timeline({
   scrollTrigger: {
     trigger: ".page1 h1",
@@ -97,6 +99,7 @@ tl2.to(".main", {
   backgroundColor: "#fff",
 });
 
+// # page 5
 var tl3 = gsap.timeline({
   scrollTrigger: {
     trigger: ".page1 h1",
@@ -112,6 +115,7 @@ tl3.to(".main", {
   backgroundColor: "#0F0D0D",
 });
 
+// # boxes before Footer
 var boxes = document.querySelectorAll(".box");
 boxes.forEach(function (elem) {
   elem.addEventListener("mouseenter", function () {
