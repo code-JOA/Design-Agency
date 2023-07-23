@@ -250,12 +250,13 @@ body {
 }
 
 /* For elem below */
-/* background-color: salmon; */
-/* background-color: red; */
+
 .elem {
   margin-bottom: 10px;
   display: flex;
   align-items: center;
+  /* background-color: salmon; */
+  /* background-color: red; */
   justify-content: center;
   position: relative;
 }
