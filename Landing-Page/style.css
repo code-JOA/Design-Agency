@@ -321,6 +321,7 @@ body {
   text-transform: uppercase;
   font-weight: 400;
 }
+*/
 
 .box {
   display: flex;
@@ -328,7 +329,7 @@ body {
   justify-content: space-between;
   padding: 0 20px;
   height: 70px;
-} */
+}
 
 /* footer {
   height: 90vh;
