@@ -261,20 +261,18 @@ body {
   position: relative;
 }
 
-/*  
 .elem img {
   height: 400px;
   position: absolute;
   opacity: 0;
   transition: all ease-out 0.5s;
   transform: translateY(10%) rotate(2deg);
-} 
-*/
+}
 
-.elem img {
+/* .elem img {
   height: 400px;
   margin-top: 160px;
-}
+} */
 
 .elem img:nth-child(1) {
   left: 2%;
