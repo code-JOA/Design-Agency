@@ -121,8 +121,8 @@ boxes.forEach(function (elem) {
   elem.addEventListener("mouseenter", function () {
     // elem.style.backgroundColor = "red";
     var att = elem.getAttribute("data-image");
-    crsr.style.width = "470px";
-    crsr.style.height = "300px";
+    crsr.style.width = "350px";
+    crsr.style.height = "250px";
     crsr.style.borderRadius = "0";
     crsr.style.backgroundImage = `url(${att})`;
   });
