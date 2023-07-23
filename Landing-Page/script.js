@@ -121,6 +121,10 @@ boxes.forEach(function (elem) {
   elem.addEventListener("mouseenter", function () {
     elem.style.backgroundColor = "red";
   });
+
+  elem.addEventListener("mouseenter", function () {
+    elem.style.backgroundColor = "transparent";
+  });
 });
 
 // var boxes = document.querySelectorAll(".box");
