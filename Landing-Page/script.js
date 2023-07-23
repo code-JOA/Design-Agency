@@ -39,8 +39,8 @@ init();
 var crsr = document.querySelector(".cursor");
 var main = document.querySelector(".main");
 main.addEventListener("mousemove", function (dets) {
-  crsr.style.left = dets.x + "px";
-  crsr.style.top = dets.y + "px";
+  crsr.style.left = dets.x + 20 + "px";
+  crsr.style.top = dets.y + 20 + "px";
 });
 
 // page1 animation
@@ -129,9 +129,8 @@ boxes.forEach(function (elem) {
 
   elem.addEventListener("mouseleave", function () {
     elem.style.backgroundColor = "transparent";
-
-    crsr.style.width = "30px";
-    crsr.style.height = "25px";
+    crsr.style.width = "20px";
+    crsr.style.height = "20px";
     crsr.style.borderRadius = "50%";
     crsr.style.backgroundImage = `none`;
   });
