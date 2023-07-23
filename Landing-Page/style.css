@@ -328,9 +328,9 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 0 20px;
-  height: 70px;
+  height: 90px;
   padding: 0 20px;
-  border-top: 1px solid #dadada;
+  border-top: 1.5px solid #dadada;
 }
 
 footer {
