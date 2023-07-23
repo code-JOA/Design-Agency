@@ -116,6 +116,13 @@ tl3.to(".main", {
 });
 
 // # boxes before Footer
+var boxes = document.querySelectorAll(".box");
+boxes.forEach(function (elem) {
+  elem.addEventListener("mouseenter", function (elem) {
+    elem.style.backgroundColor = "red";
+  });
+});
+
 // var boxes = document.querySelectorAll(".box");
 // boxes.forEach(function (elem) {
 //   elem.addEventListener("mouseenter", function () {
