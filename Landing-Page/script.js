@@ -120,9 +120,9 @@ var boxes = document.querySelectorAll(".box");
 boxes.forEach(function (elem) {
   elem.addEventListener("mouseenter", function () {
     // elem.style.backgroundColor = "red";
-    var att = elem.getAttribute("data-image")
-    crsr.style.width: "300px";
-    crsr.style.height: "250px";
+    var att = elem.getAttribute("data-image");
+    crsr.style.width = "300px";
+    crsr.style.height = "250px";
   });
 
   elem.addEventListener("mouseleave", function () {
