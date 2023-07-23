@@ -123,6 +123,8 @@ boxes.forEach(function (elem) {
     var att = elem.getAttribute("data-image");
     crsr.style.width = "300px";
     crsr.style.height = "250px";
+    crsr.style.borderRadius = "0";
+    crsr.style.backgroundImage = `url(${att})`;
   });
 
   elem.addEventListener("mouseleave", function () {
