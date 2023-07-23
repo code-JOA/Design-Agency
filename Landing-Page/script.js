@@ -130,6 +130,14 @@ boxes.forEach(function (elem) {
   elem.addEventListener("mouseleave", function () {
     elem.style.backgroundColor = "transparent";
   });
+
+  elem.addEventListener("mouseleave", function () {
+    elem.style.backgroundColor = "transparent";
+    crsr.style.width = "20px";
+    crsr.style.height = "20px";
+    crsr.style.borderRadius = "50%";
+    crsr.style.backgroundImage = `none`;
+  });
 });
 
 // var boxes = document.querySelectorAll(".box");
