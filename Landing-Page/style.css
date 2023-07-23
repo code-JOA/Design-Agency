@@ -59,7 +59,6 @@ body {
 #nav {
   height: 55px;
   width: 100%;
-  /* background-color: red; */
   display: flex;
   align-items: center;
   justify-content: space-between;
