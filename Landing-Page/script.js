@@ -122,7 +122,7 @@ boxes.forEach(function (elem) {
     elem.style.backgroundColor = "red";
   });
 
-  elem.addEventListener("mouseenter", function () {
+  elem.addEventListener("mouseleave", function () {
     elem.style.backgroundColor = "transparent";
   });
 });
