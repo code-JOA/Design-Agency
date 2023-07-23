@@ -319,6 +319,7 @@ body {
   font-size: 4vw;
   text-transform: uppercase;
   font-weight: 400;
+  margin-bottom: 50px;
 }
 /*  */
 
@@ -335,7 +336,7 @@ body {
 }
 
 .box:nth-last-child(1) {
-  border-bottom: 1px solid #dadada;
+  border-bottom: 2px solid #dadada;
   /* margin-bottom: ; */
 }
 
