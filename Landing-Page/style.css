@@ -246,7 +246,7 @@ body {
   position: relative;
   z-index: 9;
   padding: 170px 100px;
-  /* background-color: black; */
+  background-color: #0f0d0d;
 }
 
 /* For elem below */
