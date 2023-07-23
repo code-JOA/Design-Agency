@@ -121,7 +121,8 @@ boxes.forEach(function (elem) {
   elem.addEventListener("mouseenter", function () {
     // elem.style.backgroundColor = "red";
     var att = elem.getAttribute("data-image");
-    crsr.style;
+    crsr.style.width: "300px";
+    
   });
 
   elem.addEventListener("mouseleave", function () {
