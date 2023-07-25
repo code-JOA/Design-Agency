@@ -386,7 +386,8 @@ body {
 }
 
 .elems h1 {
-  font-size: 50px;
+  /* font-size: 150px; */
+  font-size: 7vw;
   color: #fff;
   text-transform: uppercase;
   text-align: center;
@@ -398,7 +399,8 @@ body {
 }
 
 .elems h2 {
-  font-size: 150px;
+  /* font-size: 150px; */
+  font-size: 7vw;
   color: #fff;
   text-transform: uppercase;
   text-align: center;
