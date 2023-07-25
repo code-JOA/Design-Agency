@@ -342,7 +342,138 @@ body {
 }
 
 /*  */
+#page5a {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #111;
+  padding: 100px 0;
+}
 
+#page5a > button {
+  background-image: url(https://bowndsranches.com/textures/buttonBg.svg);
+  padding: 10px 20px;
+  position: absolute;
+  border: none;
+  font-family: america;
+  text-transform: uppercase;
+  font-size: 17px;
+  z-index: 99;
+}
+
+#page5a > img {
+  height: 300px;
+  position: absolute;
+  width: 250px;
+  z-index: 9;
+}
+
+.elems {
+  border-top: 1px solid #ffffffc1;
+  position: relative;
+  cursor: default;
+  margin-top: -20px;
+}
+
+.elems:nth-last-child(1) {
+  border-bottom: 1px solid #ffffffc1;
+}
+
+.elems h1 {
+  font-size: 150px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  -webkit-transition: opacity ease 0.1s;
+  -o-transition: opacity ease 0.1s;
+  transition: opacity ease 0.1s;
+  opacity: 0.3;
+  font-family: america-b;
+}
+
+.elems h2 {
+  font-size: 150px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  -webkit-transition: opacity ease 0.1s;
+  -o-transition: opacity ease 0.1s;
+  transition: opacity ease 0.1s;
+}
+
+#moving-text {
+  /* background-color: #111; */
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  position: absolute;
+  top: 0;
+  -webkit-transition: opacity ease 0.1s;
+  -o-transition: opacity ease 0.1s;
+  transition: opacity ease 0.1s;
+  opacity: 0;
+  z-index: 10;
+}
+
+#moving-text h2 {
+  display: inline-block;
+  /* background-color: green; */
+  margin-left: -4px;
+  -webkit-animation-name: move-txt;
+  animation-name: move-txt;
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  position: relative;
+  padding-right: 70px;
+  /* background-color: red; */
+  font-family: america-b;
+}
+
+#moving-text h2 img {
+  rotate: 45deg;
+  height: 30px;
+  right: 3%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+
+.elems:hover #moving-text {
+  opacity: 1;
+}
+
+.elems:hover h1 {
+  opacity: 0;
+}
+
+@-webkit-keyframes move-txt {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  100% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes move-txt {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  100% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
 /*  */
 
 #page6 {
