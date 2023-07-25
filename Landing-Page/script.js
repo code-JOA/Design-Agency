@@ -49,7 +49,7 @@ document
   .addEventListener("mousemove", function (dets) {
     document.querySelector("#page5a>img").style.left = dets.x + "px";
     document.querySelector("#page5a>img").style.top = dets.y + "px";
-    document.querySelector("#page5a>button").style.left = dets.x + 20 + "px";
+    document.querySelector("#page5a>button").style.left = dets.x + 50 + "px";
     document.querySelector("#page5a>button").style.top = dets.y + 100 + "px";
   });
 
