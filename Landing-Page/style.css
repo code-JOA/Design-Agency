@@ -345,8 +345,8 @@ body {
 
 #page6 {
   position: relative;
-  height: 20vh;
-  width: 60vw;
+  height: 50vh;
+  width: 100vw;
   background-color: #111;
 }
 
@@ -361,7 +361,8 @@ body {
   font-family: gilroy;
 }
 #loop > h1 {
-  font-weight: 400;
+  font-weight: 200;
+  display: flex;
   animation-name: anim;
   animation-duration: 15s;
   animation-timing-function: linear;
