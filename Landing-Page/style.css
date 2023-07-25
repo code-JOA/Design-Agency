@@ -485,7 +485,7 @@ body {
 }
 /*  */
 
-#page6 {
+/* #page6 {
   position: relative;
   height: 50vh;
   width: 100vw;
@@ -532,7 +532,7 @@ canvas {
   100% {
     transform: translateX(-100%);
   }
-}
+} */
 
 footer {
   height: 90vh;
