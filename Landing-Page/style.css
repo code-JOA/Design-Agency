@@ -540,3 +540,58 @@ footer {
   width: 100%;
   background-color: #edbfff;
 }
+
+#page7 {
+  height: 100vh;
+  width: 100%;
+  background-color: #111;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 100px 80px 100px 10px;
+}
+
+#page7 h1 {
+  font-size: 11vw;
+  color: #faf6ef;
+  text-transform: uppercase;
+  font-family: america;
+}
+
+#page7-part2 {
+  color: #faf6ef;
+  padding-top: 40px;
+}
+
+#lola2 h2 {
+  font-size: 24px;
+  font-family: america;
+  font-weight: 100;
+  text-transform: uppercase;
+  -webkit-text-stroke: 0.4px #111;
+  letter-spacing: -1px;
+  margin-bottom: 13px;
+}
+
+#lola2 h3 {
+  font-size: 22px;
+  font-family: america;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin-top: -3px;
+  -webkit-text-stroke: 0.6px #111;
+  letter-spacing: -1px;
+}
+
+#lola3 {
+  text-align: left;
+  margin-top: 40px;
+}
+
+#lola3 h4 {
+  font-size: 24px;
+  font-family: america;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin-top: 3px;
+}
