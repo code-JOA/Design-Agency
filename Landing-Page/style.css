@@ -380,6 +380,15 @@ canvas {
   max-height: 100vh;
 }
 
+@keyframes anim {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
 footer {
   height: 90vh;
   width: 100%;
