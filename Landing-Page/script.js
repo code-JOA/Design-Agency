@@ -43,6 +43,16 @@ main.addEventListener("mousemove", function (dets) {
   crsr.style.top = dets.y + 20 + "px";
 });
 
+// page5a
+document
+  .querySelector("#page5a")
+  .addEventListener("mousemove", function (dets) {
+    document.querySelector("#page5a>img").style.left = dets.x + "px";
+    document.querySelector("#page5a>img").style.top = dets.y + "px";
+    document.querySelector("#page5a>button").style.left = dets.x + 50 + "px";
+    document.querySelector("#page5a>button").style.top = dets.y + 200 + "px";
+  });
+
 // page1 animation
 gsap.from(".page1 h1,.page1 h2", {
   y: 10,
