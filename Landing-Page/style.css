@@ -360,6 +360,13 @@ body {
   z-index: 99;
 } */
 
+#page5 h2 {
+  font-size: 4vw;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
 #page5a > img {
   height: 300px;
   position: absolute;
