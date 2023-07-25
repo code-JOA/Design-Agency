@@ -554,6 +554,7 @@ footer {
 #page7 h1 {
   font-size: 11vw;
   color: #faf6ef;
+  margin-left: 6vw;
   text-transform: uppercase;
   font-family: america;
 }
