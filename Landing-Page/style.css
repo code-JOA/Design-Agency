@@ -541,7 +541,7 @@ canvas {
   background-color: #edbfff;
 } */
 
-#page7 {
+#footer {
   height: 100vh;
   width: 100%;
   background-color: #111;
@@ -551,7 +551,7 @@ canvas {
   padding: 100px 80px 100px 10px;
 }
 
-#page7 h1 {
+#footer h1 {
   font-size: 11vw;
   color: #faf6ef;
   margin-left: 6vw;
@@ -559,7 +559,7 @@ canvas {
   font-family: america;
 }
 
-#page7-part2 {
+#footer-part2 {
   color: #faf6ef;
   padding-top: 40px;
 }
